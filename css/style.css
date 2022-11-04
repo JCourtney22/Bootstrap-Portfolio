@@ -16,10 +16,11 @@
     position: fixed;
     width: 100%;
     height: 150px;
+    background-color: rgb(207,177,183) !important;
   }
 
   .rounded-circle {
-    margin-top: 60px;
+    margin-top: 30px;
     position: absolute;
     margin-left: 20px;
     z-index: 1;
@@ -29,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(67,129,193);
+    background-color: rgba(67,129,193,0.8);
     width: 200px;
     height: 50px;
     margin-top: 20vh;
@@ -40,3 +41,9 @@
     margin-left: auto;
     margin-right: 0 !important;
   }
+
+  a {
+  color:black !important;
+  padding: 20px !important;
+  }
+
