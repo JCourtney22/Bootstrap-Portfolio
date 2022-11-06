@@ -11,35 +11,11 @@
 
   /* Nav Bar */
 
-  .customNav {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: 150px;
-    background-color: rgb(207,177,183) !important;
-  }
-
-  .rounded-circle {
-    margin-top: 30px;
-    position: absolute;
-    margin-left: 20px;
-    z-index: 1;
-  }
-
-.navbar-brand {
-    display: flex;
-    justify-content: center;
+  .nav {
     align-items: center;
-    background-color: rgba(67,129,193,0.8);
-    width: 200px;
-    height: 50px;
-    margin-top: 20vh;
-    z-index: 2;
-  }
-
-  .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(207,177,183) !important;
   }
 
   a {
@@ -47,3 +23,14 @@
   padding: 20px !important;
   }
 
+/* Hero Section */
+
+.jumbotron {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rounded-circle {
+  
+}
