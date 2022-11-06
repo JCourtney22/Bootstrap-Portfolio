@@ -31,3 +31,16 @@
   align-items: center;
 }
 
+/* Portfolio Section */
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  
+  height: 200px;
+  width: 300px;
+  
+}
