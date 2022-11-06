@@ -19,72 +19,86 @@
 <nav>
   <ul class="nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link active" href="about">About Me</a>
+      <a class="nav-link active" href="#about">About Me</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="portfolio">Portfolio</a>
+      <a class="nav-link" href="#portfolio">Portfolio</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="contact">Contact</a>
+      <a class="nav-link" href="#contact">Contact</a>
     </li>
   </ul>
 </nav>
 
 <!-- Hero Section -->
 
+
 <div class="jumbotron">
-  <img src="./images/photo.jpg" class="rounded-circle mb-3" style="width: 150px; height: 150px;"
-    alt="Avatar" />
+  <img src="./images/photo.jpg" class="img rounded-circle mb-3 img-fluid" style="width: 150px; height: 130px;" alt="Avatar" />
     <h1 class="display-4">Jade Courtney</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <p class="lead"></p>
   </div>
 
 <!-- Work Section -->
 
-<div class="container-fluid content">
-    <h2 class="sectionHeading">Shows Near You</h2>
-    <div class="row showsNear">
+<div class="container-fluid content" id="portfolio">
+    <h2 class="sectionHeading">Portfolio</h2>
+    <div class="row">
       <!-- Card 1 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+      <div class="cardContainer col-lg-10 col-md-8 col-sm-12">
         <div class="card">
-          <img src="./images/show1.jpg" class="card-img-top" alt="...">
+          <a href="https://jcourtney22.github.io/Module-1-Challenge/"><img src="./images/refactory2.png" class="card-img-top" alt="..."></a>
           <div class="card-body">
-            <h5 class="card-title">Devon</h5>
-            <p class="card-text">Storm: rock-pop fusion band.</p>
+            <h5 class="card-title">Refactoring Challenge</h5>
+            <p class="card-text">My first project was a refactoring challenge where I learnt to idenitfy how to structure code neatly and appropriately.<p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
-      <!-- End card 1 -->
+    </div>
 
-      <!-- Card 2 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    <!-- Card 2 -->
+    <div class="row">
+      <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
         <div class="card">
-          <img src="./images/show3.jpg" class="card-img-top" alt="...">
+          <img src="./images/portfolio2.jpg" class="card-img-top" alt="placeholder image">
           <div class="card-body">
-            <h5 class="card-title">Lincolnshire</h5>
+            <h5 class="card-title">Placeholder 1</h5>
             <p class="card-text">Sleepers: new indie band of the month.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
-      <!-- End card 2 -->
 
-      <!-- Card 3 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    <!-- Card 3 -->
+      <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
         <div class="card">
-          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <img src="images/portfolio3.jpg" class="card-img-top" alt="placeholder image">
           <div class="card-body">
             <h5 class="card-title">London</h5>
             <p class="card-text">Hell Freeze: new for 2022.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card 4 -->
+      <div class="row">
+      <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/portfolio4.jpg" class="card-img-top" alt="placeholder image">
+          <div class="card-body">
+            <h5 class="card-title">Placeholder 1</h5>
+            <p class="card-text">Sleepers: new indie band of the month.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
 
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    <!-- Card 5 -->
+      <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
         <div class="card">
-          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <img src="images/portfolio5.jpg" class="card-img-top" alt="placeholder image">
           <div class="card-body">
             <h5 class="card-title">London</h5>
             <p class="card-text">Hell Freeze: new for 2022.</p>
@@ -92,18 +106,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="images/3_card.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">London</h5>
-            <p class="card-text">Hell Freeze: new for 2022.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <!-- End card 3 -->
+    </div>
 
 
 <!-- Skill Section -->
@@ -129,7 +132,15 @@
 
 <!-- Footer Section -->
 
-    <!-- <h1>Hello, world!</h1> -->
+<footer class="emailContain">
+    <h3>Join Our Mailing List</h3>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Enter email">
+    </div>
+</footer>
+
 
   </body>
 </html>
