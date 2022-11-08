@@ -17,6 +17,10 @@ I took great pride in learning how to apply Bootstrap and tweak the code to suit
 
 ##Screenshot
 
+Below is a screenshot of my deployed website (https://jcourtney22.github.io/Bootstrap-Portfolio/)
+
+![jcourtney22 github io_Bootstrap-Portfolio_](https://user-images.githubusercontent.com/115502589/200701494-f8ec3bd1-0bdc-4d07-81b3-744b60479315.png)
+
 
 License
 Please refer to the LICENSE in the repo.
