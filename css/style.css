@@ -63,3 +63,16 @@ h5 {
 
 /* Skills Section */
 
+/* Footer Section */
+
+
+.btncustom {
+  transition: box-shadow .3s;
+  width: 200px;
+}
+  
+.btncustom:hover {
+  transition: box-shadow .9s;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  background-color: aqua;
+}
