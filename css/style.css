@@ -115,7 +115,7 @@ h5 {
 .abouthead {
   display: flex;
   padding: 10px;
-  align-items: baseline;
+  align-items: center;
   text-align: center;
 }
 
