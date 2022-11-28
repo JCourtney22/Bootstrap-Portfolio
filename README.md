@@ -6,9 +6,9 @@ This improved version of my portfolio required me to use Bootstrap CSS framework
 
 The first challenge I came across was identifying how best to approach the task - I didn't want to simply copy and paste my old code nor did I want to completely rewrite it. I found that using bootstrap allowed me to copy code but tweak it to my needs, blending my code into new code.
 
-I found it difficult to size the pictures into their cards, so spent lots of tiemr esearching how best to do this. I realised that part of the issue was that I was beeing overly particular about their being white space around an image. This allowed me to recognise that applying the responsive classes from bootstrap into my cards was a possibiity. I experimented with copying and pasting classes from other components to see what would happen. I ended up with a result I was happy with.
+I found it difficult to size the pictures into their cards, so spent lots of time searching how best to do this. I realised that part of the issue was that I was being overly particular about their being white space around an image. This allowed me to recognise that applying the responsive classes from bootstrap into my cards was a possibiity. I experimented with copying and pasting classes from other components to see what would happen. I ended up with a result I was happy with.
 
-One final challenge I encountered was idenitfying where missing divs were - keeping track of an accidental deletions was tricky. I found that I used the inspect tool often to support me in recognising where issues were arising. For example, I tried to apply one background colour to the portfolio section, but the colour was applied to the rest of the page. This is when I noticed some of my divs were not correct. Once I had corrected them, my page worked far better.
+One final challenge I encountered was identifying where missing divs were - keeping track of an accidental deletion was tricky. I found that I used the inspect tool often to support me in recognising where issues were arising. For example, I tried to apply one background colour to the portfolio section, but the colour was applied to the rest of the page. This is when I noticed some of my divs were not correct. Once I had corrected them, my page worked far better.
 
 ##Things I learned
 
